@@ -1,0 +1,14 @@
+CREATE DATABASE quiz;
+USE quiz;
+CREATE TABLE usuario(
+id INT(11) UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+nombre VARCHAR(50),
+contrasenia VARCHAR(250)
+);
+CREATE TABLE motocicleta(
+id VARCHAR(10) NOT NULL PRIMARY KEY,
+marca varchar(50),
+cilindraje INT (5)UNSIGNED,
+precio FLOAT(10.2)UNSIGNED,
+color VARCHAR(50)
+);
